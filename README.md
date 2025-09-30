@@ -19,18 +19,8 @@ This project demonstrates centralized logging with the **ELK Stack** and integra
 
 ---
 
-## Architecture Diagram
 
-```mermaid
-graph TD
-    A[Applications] --> B[Logstash]
-    B --> C[Elasticsearch]
-    C --> D[Kibana]
-    A --> E[CloudWatch]
-    A --> F[Prometheus]
-
-
-Project Structure
+## Project Structure
 
 monitoring-logging/
 │── elk/
