@@ -1,0 +1,11 @@
+groups:
+- name: demo-alerts
+  rules:
+  - alert: HighCPUUsage
+    expr: cpu_usage > 80
+    for: 5m
+    labels:
+      severity: warning
+    annotations:
+      summary: "High CPU usage detected"
+      description: "CPU usage is above 80% for more than 5 minutes."
