@@ -36,10 +36,10 @@ monitoring-logging/
 │   ├── alert.rules.yml
 │── README.md
 │── .gitignore
+```
 
 
-
-Getting Started
+## Getting Started
 
 1. Prerequisites
 Docker & Docker Compose
@@ -59,7 +59,7 @@ prometheus --config.file=prometheus.yml
 
 
 
-Learning Objectives
+## Learning Objectives
 
 Build centralized logging with ELK Stack
 Integrate AWS CloudWatch for log collection and metrics
